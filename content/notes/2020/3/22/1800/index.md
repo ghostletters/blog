@@ -18,7 +18,7 @@ This time a new problem popped up when I created a second GitHub account. I want
 
 So the resulting files on my local machine look like this:
 
-_~/ghostletters/.ssh/config_
+_~/.ssh/config_
 ```bash {hl_lines=[8, 11]}
 # Default GitHub
 Host github.com
@@ -33,7 +33,7 @@ Host ghostletters.github.com
     IdentityFile ~/.ssh/id_ed25519_ghostletters
 ```
 
-_~/ghostletters/clonedRepo/.git/config_
+_~/clonedRepo/.git/config_
 ```bash {hl_lines=[3]}
 [..]
 [remote "origin"]
