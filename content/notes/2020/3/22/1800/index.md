@@ -14,7 +14,7 @@ This time a new problem popped up when I created a second GitHub account. I want
 
 ### Solution
 
-**Gist**: Create a ssh config file that references different keys for different hosts. One `Host` can just be the default _github.com_. The other `Host` must be matched in _~/clonedRepo/.git_
+**Gist**: Create a ssh config file that references different keys for different hosts. One `Host` can just be the default _github.com_. The other `Host` must be matched in _~/clonedRepo/.git/config_
 
 So the resulting files on my local machine look like this:
 
@@ -33,7 +33,7 @@ Host ghostletters.github.com
     IdentityFile ~/.ssh/id_ed25519_ghostletters
 ```
 
-_~/ghostletters/clonedRepo/.git_
+_~/ghostletters/clonedRepo/.git/config_
 ```bash {hl_lines=[3]}
 [..]
 [remote "origin"]
