@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+
+{{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
+
+{{ $ogImg := print .Site.BaseURL "logo.png" }}
+
+{{ if isset .Page.Params "ogimage" }}
+    {{ $ogImg = print .Page.Params.ogimage }}
+    {{ $src := .Page.Resources.GetMatch (printf "*%s*" $ogImg) }}
+
+    {{/* mastodon does not show large pictures, so need link to small one */}}
+    {{ $tinyw := default "500x" }}
+    {{ $tinyPic := ($src.Resize $tinyw) }}
+
+    {{ $ogImg = print .Site.BaseURL $tinyPic.RelPermalink }}
+{{ end }}
+<meta property="og:image" content="{{ $ogImg }}">
+
+{{ $description := .Page.Params.description }}
+<meta name="description" content="{{ $description }}">
+
+{{ $title := print  .Title " | " .Site.Title }}
+{{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+<title>{{ $title }}</title>

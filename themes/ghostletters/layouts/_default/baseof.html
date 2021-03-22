@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body class="grid-container">
+        <header class="topLevelHeader">
+            {{ partial "header.html" . }}
+        </header>
+        <main class="topLevelContent">
+            {{ block "main" . }}{{ end }}
+        </main>
+        <footer class="topLevelFooter">
+            {{- partial "footer.html" . -}}
+        </footer>
+    </body>
+</html>

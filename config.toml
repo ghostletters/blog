@@ -1,0 +1,17 @@
+baseURL = "https://blog.ghostletters.xyz/"
+languageCode = "en-us"
+title = "Ghost Letters"
+
+theme = "ghostletters"
+
+sectionPagesMenu = "main"
+
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      tabWidth = 4
+      noClasses = false
