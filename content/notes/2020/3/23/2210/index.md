@@ -8,7 +8,7 @@ description: "Use JavaScript to load comments from Mastodon"
 comments:
   host: fosstodon.org
   username: ghost_letters
-  id: 105935391504191020
+  id: 105941316911277422
 ---
 
 After reading this [Toot from Surendrajat](https://fosstodon.org/web/statuses/105935391504191020) I wanted to add Mastodon Toots as comments. Thanks [@carl](https://linuxrocks.online/@carl) for inventing the smart comment solution and sharing the required JavaScript / Hugo integration.
