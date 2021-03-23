@@ -33,7 +33,7 @@ jobs:
       - name: Hugo build
         run: |
           sudo snap install hugo --channel=extended
-          hugo
+          hugo --debug
 
       - name: SSH setup
         env:
