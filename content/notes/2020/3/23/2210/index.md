@@ -8,12 +8,13 @@ description: "Use JavaScript to load comments from Mastodon"
 comments:
   host: fosstodon.org
   username: ghost_letters
-  id: 
+  id: 105935391504191020
 ---
 
 After reading this [Toot from Surendrajat](https://fosstodon.org/web/statuses/105935391504191020) I wanted to add Mastodon Toots as comments. Thanks [@carl](https://linuxrocks.online/@carl) for inventing the smart comment solution and sharing the required JavaScript / Hugo integration.
 
 Original source: [Adding comments to your static blog with Mastodon](https://carlschwan.eu/2020/12/29/adding-comments-to-your-static-blog-with-mastodon/)
 
-If you want to see how it all comes together, check out this [git commit]().
+If you want to see how it all comes together, check out these git commits
+ - [add required code](https://github.com/ghostletters/blog/commit/437294d1333a6189d3e461627a92fcfdd56b3e92)
 
