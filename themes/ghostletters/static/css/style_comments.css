@@ -1,0 +1,23 @@
+.mastodon-comment {
+  background-color: mistyrose;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.comment_author {
+  display: flex;
+}
+
+.comment_display_name {
+  margin-right: 8px;
+}
+
+.comment_reply {
+  flex-grow: 1;
+  text-align: right;
+}
+
+.comment_avatar {
+  margin-right: 8px;
+}
