@@ -17,4 +17,7 @@ Original source: [Adding comments to your static blog with Mastodon](https://car
 
 If you want to see how it all comes together, check out these git commits
  - [add required code](https://github.com/ghostletters/blog/commit/437294d1333a6189d3e461627a92fcfdd56b3e92)
+ - toot
+ - [add toot ID to this post](https://github.com/ghostletters/blog/commit/6f9225a1e3f55bbb2ece5dbf721b139a7ab0cedb)
+
 
