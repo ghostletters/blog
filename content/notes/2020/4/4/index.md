@@ -42,7 +42,6 @@ xcaddy build --with github.com/abiosoft/caddy-exec@8d34c546e3f0aa43ba803955e7d5d
 
 - had to refreseh my memory [how to configure caddy as service](https://caddyserver.com/docs/install#linux-service). This also defines where the config file is located
   - start server with: `sudo systemctl start caddy`
-
 - back to https://caddyserver.com/docs/modules/exec or better https://github.com/abiosoft/caddy-exec
   - update caddy config
 
@@ -58,8 +57,7 @@ ghostletters.xyz {
 }
 ```
 
-- reload config: $ sudo systemctl reload caddy
-
+- reload config: `sudo systemctl reload caddy`
 - install git & hugo on server. Create `refresh_blog.sh` script
 
 ```bash
