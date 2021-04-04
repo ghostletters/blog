@@ -4,6 +4,10 @@ date: 2021-04-04T19:10:04+01:00
 draft: false
 tags: ["note", "caddy", "webhook", "xcaddy", "exec"]
 description: "Trigger bash script via URL"
+comments:
+  host: fosstodon.org
+  username: ghost_letters
+  id: 106008427707699368
 ---
 
 ### WebHook == Run Some Command
