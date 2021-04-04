@@ -58,7 +58,9 @@ ghostletters.xyz {
 ```
 
 - reload config: `sudo systemctl reload caddy`
-- install git & hugo on server. Create `refresh_blog.sh` script
+- install git & hugo on server via `apt`
+  - clone blog repo from GitHub 
+- create `refresh_blog.sh` script
 
 ```bash
 #!/bin/sh
@@ -71,7 +73,8 @@ hugo --destination /home/caddy/blog
 
 touch /home/user/blog_refreshed.txt      # optional
 ```
-So most of the time I struggled with installing the Exec module. I encountered some weird behaviour where I could run the script, but when caddy executed the same script, the `cp` (copy) command produced some `read only file-system` errors. Anyway, in the end it worked and now my Hugo-based blog updates in less than 1 seconds.
+
+I struggled with installing the Exec module. Also I encountered some weird behaviour where I could run the script, but when caddy executed the same script, the `cp` (copy) command produced some `read only file-system` errors. Anyway, in the end it worked and now my Hugo-based blog updates in less than 1 seconds.
 
 Happy Easter.
 
