@@ -3,7 +3,7 @@ title: "How to Not Have a Good Conversation"
 date: 2021-04-05T11:10:04+01:00
 draft: true
 tags: ["post", "non-tech", "thoughts", "philosophic"]
-description: "TODO"
+description: "What reduces the quality of a conversation?"
 ---
 
 ### Problem Description
