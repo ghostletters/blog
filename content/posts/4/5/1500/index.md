@@ -1,6 +1,6 @@
 ---
 title: "How to Have a Good Conversation"
-date: 2021-04-05T11:10:04+01:00
+date: 2021-04-05T15:10:04+01:00
 draft: true
 tags: ["post", "non-tech", "thoughts", "philosophic"]
 description: "What helps a conversation?"
