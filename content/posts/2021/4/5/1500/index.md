@@ -4,6 +4,10 @@ date: 2021-04-05T15:10:04+01:00
 draft: false
 tags: ["post", "non-tech", "thoughts", "philosophic"]
 description: "What helps a conversation?"
+comments:
+  host: fosstodon.org
+  username: ghost_letters
+  id: 106013886219795725
 ---
 
 ### Remedy Proposal
