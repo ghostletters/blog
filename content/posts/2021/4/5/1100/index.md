@@ -4,6 +4,10 @@ date: 2021-04-05T11:10:04+01:00
 draft: false
 tags: ["post", "non-tech", "thoughts", "philosophic"]
 description: "What reduces the quality of a conversation?"
+comments:
+  host: fosstodon.org
+  username: ghost_letters
+  id: 106013884254843965
 ---
 
 ### Problem Description
