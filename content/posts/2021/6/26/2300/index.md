@@ -9,12 +9,12 @@ ogImage: todo_video_thumbnail.jpg
 
 ### Problem Motivation
 
-_These posts support my video tutorial in a written form. They are not 1:1 copies of the videos, but rather an overview and 'bonus material'._
+_These posts accompany my video tutorial in a written form. They are not 1:1 copies of the video content, but provide a rather coarse overview and 'bonus material'. You find all the code on [github](https://github.com/ghostletters/entity-search-like-google)._
 
-Searching is a common and arbitrary hard problem in computer science. Building a good solution can make you rich, like Google scale rich. And here you gonna learn the secret sauce how to build a good search.
+Searching is a common and arbitrary hard problem in computer science. Building a good solution can make you rich, really rich, Google scale rich. And here you gonna learn the secret sauce how to build a good search.
 
 {{<link "https://www.youtube.com/watch?v=CY4Xqy2DQog" "fooId">}}
-  {{< img src="todo_video_thumbnail.jpg" alt="a wild bird" loading="lazy">}}
+  {{<img src="todo_video_thumbnail.jpg" alt="a wild bird" loading="lazy">}}
   {{<playSvg>}}
 {{<linkClose>}}
 
