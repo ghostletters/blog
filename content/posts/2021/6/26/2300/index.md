@@ -1,5 +1,5 @@
 ---
-title: "Search Entities like Google"
+title: "Search Entities like Google - Part 0"
 date: 2021-06-26T23:00:59+02:00
 draft: false
 tags: ["search", "google"]
@@ -7,7 +7,7 @@ description: "What reduces the quality of a conversation?"
 ogImage: todo_video_thumbnail.jpg
 ---
 
-### Problem Motivation - Part 0
+### Problem Motivation
 
 _These posts support my video tutorial in a written form. They are not 1:1 copies of the videos, but rather an overview and 'bonus material'._
 
