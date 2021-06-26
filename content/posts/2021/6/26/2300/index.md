@@ -18,6 +18,8 @@ Searching is a common and arbitrary hard problem in computer science. Building a
   {{<playSvg>}}
 {{<linkClose>}}
 
+{{<source "youtube.com" "https://www.youtube.com/watch?v=CY4Xqy2DQog">}}
+
 Okay, you probably not gonna become Google scale rich after reading this article. Nevertheless, building a good search will make your users happy and that is something good, right?
 
 ...
