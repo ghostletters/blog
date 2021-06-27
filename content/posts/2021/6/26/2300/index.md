@@ -14,8 +14,7 @@ _These posts accompany my video tutorial in a written form. They are not 1:1 cop
 Searching is a common and arbitrary hard problem in computer science. Building a good solution can make you rich, really rich, Google scale rich. And here you gonna learn the secret sauce how to build a good search.
 
 {{<link "https://www.youtube.com/watch?v=CY4Xqy2DQog" "fooId">}}
-  {{<img src="todo_video_thumbnail.jpg" alt="a wild bird" loading="lazy">}}
-  {{<playSvg>}}
+  {{<img src="todo_video_thumbnail.jpg" alt="a wild bird" loading="lazy" playicon="true">}}
 {{<linkClose>}}
 
 {{<source "youtube.com" "https://www.youtube.com/watch?v=CY4Xqy2DQog">}}
