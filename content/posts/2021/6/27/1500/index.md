@@ -22,9 +22,9 @@ The IDE is the crucial part in my screencasts, because I spent most of the time 
 - increase the font size. This sounds kind of obvious, but just keep increasing the font size when you think it is enough. If you feel like asking 'Is this big enough?', the answer is 'No, it isn't'
 - hide all distractions. Again this sounds obvious, but there is a lot of stuff on the screen that your viewer is not interested in and that waists your screen real estate. For instance
   - make the IDE/editor full screen, so you get rid of all task bars, window titles and other decorations. This gives you also more room for a bigger font
-  - hide all file trees, terminals, IDE goodies, etc if you do not use them. In IntelliJ I use the view `Project Files` to hide `External Libraries` and `Scratches`
-  - do you actually need line numbers? If you never mention them, hide them
-  - in case of bootstrapping a project with a command (common in JS and newer Java frameworks), delete/hide all the cruft you don't use. For instance tests, dot files and folders (I am looking at you `mvnw`). This is all distraction
+  - hide all file trees, terminals, IDE goodies, etc if you do not use them. 
+  - in case of bootstrapping a project with a command (common in JS and newer Java frameworks), delete/hide all the cruft you don't use. In IntelliJ I use a [custom scope](https://www.jetbrains.com/help/idea/settings-scopes.html#toolbar), that hides everything except `src/main/java`, `src/main/resources` and `pom.xml`.
+- do you actually need line numbers? If you never mention them, hide them.
 - don't waist time on typing. Watching people type is mostly boring. If you are like me a rather slow typer, don't worry, just speed the typing scenes up in post-production of the video. This means you should not talk during typing, otherwise the speedup will distort your voice
 
 I use the [ZEN mode in IntelliJ](https://blog.jetbrains.com/idea/2020/01/intellij-idea-2020-1-eap-2/#zen_mode) which provides fullscreen and most hiding automatically.
