@@ -20,7 +20,7 @@ This article contains my personal notes, about things I learned, while doing my 
 The IDE is the crucial part in my screencasts, because I spent most of the time there writing and talking about code. I learned the following things:
 
 - increase the font size. This sounds kind of obvious, but just keep increasing the font size when you think it is enough. If you feel like asking 'Is this big enough?', the answer is 'No, it isn't'
-- hide all distractions. Again this sounds obvious, but there is a lot of stuff on the screen that your viewer is not interested in and that waists your screen real estate. For instance
+- hide all distractions. Again this sounds obvious, but there is a lot of stuff on the screen that your viewer is not interested in and that waists your [screen real estate](https://youtu.be/bFcaO1pXzws?t=695). For instance
   - make the IDE/editor full screen, so you get rid of all task bars, window titles and other decorations. This gives you also more room for a bigger font
   - hide all file trees, terminals, IDE goodies, etc if you do not use them. 
   - in case of bootstrapping a project with a command (common in JS and newer Java frameworks), delete/hide all the cruft you don't use. In IntelliJ I use a [custom scope](https://www.jetbrains.com/help/idea/settings-scopes.html), that hides everything except `src/main/java`, `src/main/resources` and `pom.xml`.
