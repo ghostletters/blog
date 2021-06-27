@@ -4,7 +4,7 @@ date: 2021-06-26T23:00:59+02:00
 draft: false
 tags: ["search", "google"]
 description: "What reduces the quality of a conversation?"
-ogImage: search-entities-like-google_1.png
+ogImage: search-entities-like-google_0.png
 ---
 
 ### Problem Motivation
@@ -14,7 +14,7 @@ _These posts accompany my video tutorial in a written form. They are not 1:1 cop
 Searching is a common and arbitrary hard problem in computer science. Building a good solution can make you rich, really rich, Google scale rich. And here you gonna learn the secret sauce how to build a good search.
 
 {{<link "https://www.youtube.com/watch?v=CY4Xqy2DQog" "fooId">}}
-  {{<img src="search-entities-like-google_1.png" alt="a wild bird" loading="lazy" playicon="true">}}
+  {{<img src="search-entities-like-google_0.png" alt="a wild bird" loading="lazy" playicon="true">}}
 {{<linkClose>}}
 
 {{<source "youtube.com" "https://www.youtube.com/watch?v=CY4Xqy2DQog">}}
