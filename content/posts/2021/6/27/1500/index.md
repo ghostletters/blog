@@ -23,7 +23,7 @@ The IDE is the crucial part in my screencasts, because I spent most of the time 
 - hide all distractions. Again this sounds obvious, but there is a lot of stuff on the screen that your viewer is not interested in and that waists your screen real estate. For instance
   - make the IDE/editor full screen, so you get rid of all task bars, window titles and other decorations. This gives you also more room for a bigger font
   - hide all file trees, terminals, IDE goodies, etc if you do not use them. 
-  - in case of bootstrapping a project with a command (common in JS and newer Java frameworks), delete/hide all the cruft you don't use. In IntelliJ I use a [custom scope](https://www.jetbrains.com/help/idea/settings-scopes.html#toolbar), that hides everything except `src/main/java`, `src/main/resources` and `pom.xml`.
+  - in case of bootstrapping a project with a command (common in JS and newer Java frameworks), delete/hide all the cruft you don't use. In IntelliJ I use a [custom scope](https://www.jetbrains.com/help/idea/settings-scopes.html), that hides everything except `src/main/java`, `src/main/resources` and `pom.xml`.
 - do you actually need line numbers? If you never mention them, hide them.
 - don't waist time on typing. Watching people type is mostly boring. If you are like me a rather slow typer, don't worry, just speed the typing scenes up in post-production of the video. This means you should not talk during typing, otherwise the speedup will distort your voice
 
