@@ -15,7 +15,7 @@ This article contains my personal notes, about things I learned, while doing my 
 
 {{<img src="todo_thumbnail.jpg" alt="a wild bird" loading="lazy">}}
 
-#### In the IDE/Editor
+#### The IDE/Editor
 
 The IDE is the crucial part in my screencasts, because I spent most of the time there writing and talking about code. I learned the following things:
 
