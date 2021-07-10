@@ -40,7 +40,7 @@ So we _want_ to have a consistent system and thorough reviews _are_ an effective
 
 OR I tell the people
 
-- after being reviewed _enough_ you will turn into a capable reviewer. Don't worry about when this will happen, I will tell you. Bonus, you don't have to actively do anything. Please also refrain from asking. Thanks a lot.
+- after being reviewed _enough_ you will turn into a capable reviewer. Don't worry about when this will happen, I will tell you when it happened. Bonus, you don't have to actively do anything. Please also refrain from asking. Thanks a lot.
 
 ### Education as Explicit Goal
 
