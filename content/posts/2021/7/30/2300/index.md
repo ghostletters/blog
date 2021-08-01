@@ -1,12 +1,19 @@
 ---
 title: "Building IT Solutions is Like Going to the Beach"
 date: 2021-07-30T22:48:03+02:00
-draft: true
+draft: false
+tags: ["complexity", "metaphor", "strategy"]
+description: "What reduces the quality of a conversation?"
+ogImage: elb_tunnel.jpg
 ---
 
 ### Preface - Metaphors Are Always Wrong
 
-Comment sections are full of more or less well intended metaphors. One of the most popular ones is comparing X with a car. Of course there is no shortage of people that explain en detail why these metaphors are wrong. I think those comments often miss the point of a good metaphor. A metaphor is by definition an abstraction, or you could call it a model. The whole purpose is to emphasize some parts and ignore other parts. Of course a model can work better or worse for a given purpose. I hope my metaphor paints a relatable picture for people working in IT and for people in other professions.
+_Comment sections are full of more or less well intended metaphors. One of the most popular ones is comparing X with a car. Of course there is no shortage of people that explain en detail why these metaphors are wrong._
+
+{{<img src="elb_tunnel.jpg" alt="a wild bird" loading="lazy">}}
+
+_I think those comments often miss the point of a good metaphor. A metaphor is by definition an abstraction, or you could call it a model. The whole purpose is to emphasize some parts and ignore other parts. Of course a model can work better or worse for a given purpose. I hope my metaphor paints a relatable picture for people working in IT and for people in other professions._
 
 ### The Law of Complexity
 
@@ -50,3 +57,5 @@ I imagine the result something like this:
 - **Google**: We take the road and offer rides for free. The revenue will be made by ads that we place next to the road. And in the car. And at the beach. And in the sea. And...
 - **Amazon**: We are able to invest a lot of money and operate on a loss for a long time. We might start on the road and build a tunnel in parallel. After that we would like to blast away the soil, so the sea comes closer to the city. There are some legal questions, but we gonna sort that out.
 - **Elon Musk**: We have this Hyper Loop concept laying around here... Or we just invent something more extreme.
+
+_To be continued..._

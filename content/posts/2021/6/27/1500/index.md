@@ -13,7 +13,7 @@ This article contains my personal notes, about things I learned, while doing my 
 
 > Notice, I produced two playlists on the very same topic. The second one is already an iteration, or a version 2 release. You find the playlists on youtube [version 2 here](https://www.youtube.com/watch?v=CY4Xqy2DQog&list=PLxkAEgr9RgPe7e5EhdPpaGP21M0F5ExpO) and [version 1 here](https://www.youtube.com/watch?v=CY4Xqy2DQog&list=PLxkAEgr9RgPc6WBfOZqxZeoq357f7FfPP).
 
-{{<img src="tunnel.jpg" alt="a wild bird" loading="lazy">}}
+{{<img src="tunnel.jpg" alt="a glass tunnel" loading="lazy">}}
 
 #### The IDE/Editor
 
