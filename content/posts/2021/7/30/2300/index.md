@@ -3,7 +3,7 @@ title: "Building IT Solutions is Like Going to the Beach"
 date: 2021-07-30T22:48:03+02:00
 draft: false
 tags: ["complexity", "metaphor", "strategy"]
-description: "What reduces the quality of a conversation?"
+description: "Who deals with complexity?"
 ogImage: elb_tunnel.jpg
 ---
 
