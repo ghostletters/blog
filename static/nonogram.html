@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,7 @@
 
   <style>
     :root {
-      --cell-size: 20px;
+      --cell-size: 40px;
     }
 
     td {
@@ -61,11 +61,15 @@
     .userselection {
       background-color: brown;
     }
+
+    .userselection2 {
+      background-image: url('data:image/svg+xml;utf8,<svg fill="%23e67e22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 329.26933 329"><path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/></svg>');
+      background-size: cover;
+    }
   </style>
 </head>
 
 <body>
-
   <input id="size" type="number" placeholder="Enter Field Size">
   <button onclick="buildTable()">Create Field</button>
 
@@ -73,6 +77,12 @@
 
   <table id="table"></table>
 
+  <br>
+  <label for="userselection2">Mark As Blank
+    <input id="userselection2" type="checkbox" />
+  </label>
+
+  <br>
   <br>
   <button id="startButton" onclick="startGame()">Start Playing</button>
 
@@ -136,9 +146,13 @@
           classes = 'field-background'
           onclickValue = `onclick="doStuff(this)"`
         }
-        if (i + 1 <= tableSize && j + 1 <= tableSize) {
+        else if (i + 1 <= tableSize && j + 1 <= tableSize) {
           classes = 'gray-background'
         }
+        else {
+          onclickValue = `onclick="userSelectionLegend(this)"`
+        }
+
         if (i < Math.floor((tableSize) / 2) || j < Math.floor((tableSize) / 2)) {
           classes += ', hidden'
         }
@@ -151,7 +165,20 @@
     init();
 
     function markSolutionField(element) {
+      let markAsBlankCheckbox = document.getElementById('userselection2');
+      if (markAsBlankCheckbox.checked) {
+        element.classList.remove('userselection');
+        element.classList.toggle('userselection2');
+        return;
+      }
+      element.classList.remove('userselection2');
       element.classList.toggle('userselection');
+    }
+
+    function userSelectionLegend(element) {
+      if (isGameStarted) {
+        element.classList.toggle('userselection2');
+      }
     }
 
     function doStuff(element) {
