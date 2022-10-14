@@ -42,10 +42,6 @@
       background-color: lightgray;
     }
 
-    .red {
-      color: red;
-    }
-
     .hidden {
       display: none;
     }
@@ -54,8 +50,12 @@
       font-weight: bold;
     }
 
-    .green-background {
-      background-color: lightgreen;
+    .field-background {
+      background-color: #FBEAEB;
+    }
+
+    .marked {
+      color: #2F3C7E;
     }
   </style>
 </head>
@@ -109,7 +109,7 @@
         let classes = 'bold';
         let onclickValue = ''
         if (i + 1 > tableSize && j + 1 > tableSize) {
-          classes = 'green-background'
+          classes = 'field-background'
           onclickValue = `onclick="doStuff(this)"`
         }
         if (i + 1 <= tableSize && j + 1 <= tableSize) {
@@ -127,13 +127,13 @@
     init();
 
     function doStuff(element) {
-      element.classList.toggle('red')
+      element.classList.toggle('marked')
 
       const data = parseInt(element.id);
       updateTop(data);
       updateLeft(data);
 
-      element.innerText = element.classList.contains('red') ? 'x' : '';
+      element.innerText = element.classList.contains('marked') ? 'x' : '';
     }
 
     function updateTop(data) {
@@ -160,13 +160,13 @@
       let result = [0]
       for (let i = tableSize; i < tableSizeDouble; i++) {
         const el = getElementById(columnIndex + 1 + tableSizeDouble * i)
-        addElementIfHasClassRed(el, result);
+        addElementIfHasClassMarked(el, result);
       }
       return result;
     }
 
-    function addElementIfHasClassRed(el, result) {
-      if (el.classList.contains('red')) {
+    function addElementIfHasClassMarked(el, result) {
+      if (el.classList.contains('marked')) {
         result[result.length - 1] = result[result.length - 1] + 1;
       } else {
         result.push(0)
@@ -192,7 +192,7 @@
       let result = [0]
       for (let i = 0; i < tableSize; i++) {
         const el = getElementById(rowIndex * tableSizeDouble + i + 1 + tableSize);
-        addElementIfHasClassRed(el, result);
+        addElementIfHasClassMarked(el, result);
       }
       return result;
     }
