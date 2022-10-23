@@ -19,6 +19,7 @@
 <!--  <link rel="stylesheet" href="css/normalize.css">-->
 <!--  <link rel="stylesheet" href="css/main.css">-->
   <meta name="theme-color" content="#fafafa">
+  <link rel="shortcut icon" href="#">
 
   <style>
     :root {
@@ -137,7 +138,55 @@
         }
       }
 
+      cleanEmptyLegendRows();
+      cleanEmptyLegendColumns();
+
       startGame();
+    }
+
+    function cleanEmptyLegendColumns() {
+        let firstNotEmptyColumnIndex = 0
+    
+        for (let i = 0; i < tableSizeDouble; i++) {
+            for (let j = 0; j < tableSizeDouble; j++) {
+                const index = j * tableSizeDouble + i + 1
+                const td = document.getElementById(index)
+
+                if (td.innerText !== '') {
+                    console.log(td)
+                    firstNotEmptyColumnIndex = ((index - 1) % tableSizeDouble);
+                    break;
+                }
+            }
+            if (firstNotEmptyColumnIndex !== 0) break
+        }
+
+        for (let i = 0; i < firstNotEmptyColumnIndex; i++) {
+            for (let j = 0; j < tableSizeDouble; j++) {
+                const index = j * tableSizeDouble + i + 1
+                console.log(index)
+                const td = document.getElementById(index)
+                console.log('i: ' + i + ' j: ' + j)
+                td.classList.add('hidden')
+            }
+        }
+    }
+
+    function cleanEmptyLegendRows() {
+        const tds = document.getElementsByTagName('td')
+
+        let rowIndex = 0
+        for (const td of tds) {
+            if (td.innerText !== '') {
+                rowIndex = Math.floor((parseInt(td.id) - 1) / tableSizeDouble);
+                break;
+            }
+        }
+        for (const td of tds) {
+            const id = parseInt(td.id)
+            if (id > rowIndex * tableSizeDouble) break;
+            td.classList.add('hidden')
+        }
     }
 
     function importFieldSize() {
